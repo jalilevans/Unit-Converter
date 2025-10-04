@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: white;
+    font-family: Inter;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    color: #CCC1FF;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card {
+    width: 550px;
+    height: 729px;
+    margin: 40px auto;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    background: #6943FF;
+    width: 550px;
+    height: 285px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.num-container {
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    width: 117px;
+    height: 83px;
+    flex-shrink: 0;
+}
+
+button {
+    display: inline-flex;
+    padding: 9px 27.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    width: 117px;
+
+    /* shadow/sm */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    
+    border: none;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-grow: 1;
+}
+
+.conversion-box {
+    width: 500px;
+    height: 108px;
+    border-radius: 5px;
+    background: #273549;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#initial-number {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background: none;
+    
+}
